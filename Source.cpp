@@ -23,7 +23,7 @@ int main()
 				if (sum[i][j] == 1)
 		        	sum[k][(k - i)*i + j] = 1;
 	  
-	while (i)
+	while (1)
 	{
 		cin >> n;
 		if (n>1 && n < 21)
@@ -33,7 +33,7 @@ int main()
 					cout << i << " ";
 		}
 		else
-			break;
+	        	break;
        cout << endl;
 	}
 	  
